@@ -1,0 +1,118 @@
+.container__wrapper-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info__container {
+  background: whitesmoke;
+  width: 30%;
+  margin-top: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 10px 0px 8px -12px rgba(0, 0, 0, 0.20);
+  box-shadow: inset 10px 0px 8px -12px rgba(0, 0, 0, 0.20);
+}
+
+.info__content {
+  margin-top: -50px;
+}
+
+.info__content p {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 500;
+  color: #333;
+}
+
+form {
+  border-radius: 3px;
+  background: #ffe8f0;
+  width: 50%;
+  margin-top: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  -webkit-box-shadow: inset -10px 0px 8px -12px rgba(0,0,0,0.20); 
+  box-shadow: inset -10px 0px 8px -12px rgba(0,0,0,0.20);
+}
+
+input {
+  background: whitesmoke !important;
+  width: 50%;
+  height: 35px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 500;
+  color: #f63e97;
+  box-shadow: 0 0 35px rgb(0 0 0 / 12%);
+}
+
+input:focus {
+  border: 2px solid #f63e97;
+}
+
+textarea {
+  box-shadow: 0 0 35px rgb(0 0 0 / 12%);
+  resize: none;
+  background: whitesmoke;
+  width: 70%;
+  max-height: 200px;
+  height: 130px;
+  min-height: 100px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 500;
+  color: #f63e97;
+}
+textarea:focus {
+  border: 2px solid #f63e97;
+}
+
+label {
+  margin-top: 1rem;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 600;
+}
+
+input[type="submit"] {
+  text-transform: uppercase;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 600;
+  margin-top: 2rem;
+  cursor: pointer;
+  background: #f63e97 !important;
+  color: whitesmoke;
+  border: none;
+  width: 30%;
+  border-radius: 16px;
+}
+
+input[type="submit"]:hover {
+  background: whitesmoke !important;
+  color: #f63e97;
+}
+
+.box__contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 500px;
+}
+
+.title__contact {
+  position: relative;
+  top: -100px;
+}

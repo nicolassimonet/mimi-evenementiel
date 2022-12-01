@@ -1,0 +1,34 @@
+{
+  "main": {
+    "name":"Mimi Évenementiel",
+    "description":"",
+    "image":"",
+    "bio":"",
+    "contactmessage":"",
+    "email": "mimievenementiel@gmail.com",
+    "phone": "07.86.08.40.43",
+    "address":{
+      "street":"Rue",
+      "city":"Ville",
+      "state":"Pays",
+      "zip": "Code Postal"
+    },
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/myriamevenementiel",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/myriam-nicolas-867084112/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/mimievenementiel/",
+        "className":"fa fa-instagram"
+      }
+    ]
+  }
+}
