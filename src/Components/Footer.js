@@ -34,7 +34,7 @@ class Footer extends Component {
                   </a>{" "}
                   <bold>&</bold>{" "}
                   <a title="iiRedDev" href="https://github.com/iiRedDev">
-                    Allan Le Tallec
+                    Allan Le Talec
                   </a>
                 </li>
               </ul>
