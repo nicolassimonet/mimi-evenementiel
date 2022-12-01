@@ -34,3 +34,9 @@
   background-color: whitesmoke;
   color: #f63e97;
 }
+
+@media screen and (max-width: 280px){
+  #portfolio {
+    margin-left: 45px!important;
+  }
+}

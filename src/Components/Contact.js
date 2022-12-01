@@ -34,25 +34,20 @@ const Contact = () => {
   return (
     <div id="contact" className="box__contact-wrapper">
       <h2 className="section-heading title__contact">Contact</h2>
-      <div className="container__wrapper-contact">
-        <form ref={form} onSubmit={sendEmail}>
-          <label>Nom</label>
-          <input type="text" name="user_name" />
-          <label>Email</label>
-          <input type="email" name="user_email" />
-          <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Envoyer" />
-        </form>
-        <div className="info__container">
-          <h1></h1>
-          <br />
-          <div className="info__content">
-            <br />
+      <div class="container">
+        <div class="contact-box">
+          <div class="left">
+            <h1></h1>
             <p>07 86 08 40 43</p>
             <p>13 rue du Moulin, 13140 Miramas</p>
             <p>mimievenementiel@gmail.com</p>
           </div>
+          <form ref={form} onSubmit={sendEmail} class="right">
+            <input type="text" class="field" name="user_name" placeholder="Nom" />
+            <input type="email" class="field" name="user_email" placeholder="Email" />
+            <textarea placeholder="Message" name="message" class="field"/>
+            <input type="submit" value="Envoyer" />
+          </form>
         </div>
       </div>
     </div>

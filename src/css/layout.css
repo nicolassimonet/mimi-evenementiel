@@ -26,6 +26,8 @@ body {
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+
+
 header {
    position: relative;
    height: 800px;
@@ -112,6 +114,15 @@ header .scrolldown a:hover {
    color: #f63e97;
 }
 
+@media screen and (max-width: 280px) {
+   header {
+      margin-left: 65px !important;
+   }
+   header .banner-text h1 {
+      text-transform: none;
+   }
+}
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul,
@@ -179,7 +190,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active {
-   background-color: transparent!important;
+   background-color: transparent !important;
 }
 
 ul#nav li a:hover {
@@ -194,7 +205,7 @@ ul#nav li.current a {
    font-weight: 800;
 }
 
-*{
+* {
    scroll-behavior: smooth;
 }
 
@@ -202,42 +213,81 @@ ul#nav li.current a {
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
-.section-heading {
-   color: #ebc764;
-   margin-bottom: 50px;
-   font-size: 58px;
-   font-weight: 800;
-   text-transform: uppercase;
-   font-family: "Merriweather Sans", sans-serif;
+@media screen and (max-width: 280px) {
+   #about {
+      margin-left: 65px !important;
+   }
 }
 
-.img__about {
-   width: 500px;
-}
-
-.about__container {
+.about {
+   width: 100%;
+   height: 90vh;
+   /* background: whitesmoke; */
    display: flex;
    justify-content: center;
-   /* align-items: center; */
-   text-align: center;
-   width: 100%;
+   align-items: center;
 }
 
-.about__wrapper {
-   
-   /* padding-top: 143px; */
-   padding-left: 150px;
-   padding-right: 150px;
-   background-color: whitesmoke;
+.about .content img {
+   height: auto;
+   width: 600px;
+   max-width: 100%;
+}
+
+.about__container-text {
+   text-align: center;
+   width: 550px;
+   max-width: 100%;
+   padding: 0 10px;
+}
+
+.content {
+   width: 1280px;
+   max-width: 95%;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+}
+
+@media screen and (max-width: 1180px) {
+   .about {
+      width: 100%;
+      /* height: auto; */
+      padding: 70px 0px;
+   }
+}
+
+@media screen and (max-width: 1300px) {
+   .about {
+      margin-top: 300px;
+   }
+}
+
+@media screen and (max-width: 650px) {
+   .about .content img {
+      margin-bottom: 35px;
+   }
+}
+
+@media screen and (max-width: 1300px) {
+   .about .content img {
+      margin-bottom: 35px;
+   }
+
+   .about__container-text {
+      margin-bottom: 350px;
+   }
 }
 
 .title__about {
    color: #ebc764;
-   font-size: 30px;
-   font-weight: 700;
+   margin-bottom: 30px;
+   font-size: 34px;
+   font-weight: 800;
    text-transform: uppercase;
    font-family: "Merriweather Sans", sans-serif;
-   margin-top: 100px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -247,9 +297,6 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* e. Boutique Section
 /* ------------------------------------------------------------------ */
-
-
-
 
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
