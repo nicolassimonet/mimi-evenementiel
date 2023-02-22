@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
 
-import Mimi from "./../images/mimi.jpeg";
+import Mimi from "./../images/mimiOffi.jpg";
 
 class About extends Component {
   render() {

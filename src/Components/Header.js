@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import bgVideo from "./../images/header-video.mp4";
 // import Fade from "react-reveal";
 
 class Header extends Component {
@@ -47,6 +48,7 @@ class Header extends Component {
           </ul>
         </nav>
 
+      <div className="container__banner">
         <div className="row banner">
           <div className="banner-text">
             {/* <Fade bottom> */}
@@ -57,6 +59,8 @@ class Header extends Component {
             {/* </Fade> */}
           </div>
         </div>
+        <video autoPlay loop muted src={bgVideo}></video>
+      </div>
 
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">

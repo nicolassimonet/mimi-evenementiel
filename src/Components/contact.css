@@ -89,7 +89,7 @@ input {
 }
 
 input:focus {
-  border: 2px solid #f63e97;
+  border: 2px solid #ffa8f3;
 }
 
 textarea {
@@ -106,7 +106,7 @@ textarea {
   resize: none;
 }
 textarea:focus {
-  border: 2px solid #f63e97;
+  border: 2px solid #ffa8f3;
 }
 
 label {
@@ -124,7 +124,7 @@ input[type="submit"] {
   font-size: 1.1rem;
   outline: none;
   cursor: pointer;
-  background: #f63e97 !important;
+  background: #ffa8f3 !important;
   color: whitesmoke;
   border: none;
   width: 100%;
@@ -135,7 +135,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background: whitesmoke !important;
-  color: #f63e97;
+  color: #ffa8f3;
 } 
 
 .box__contact-wrapper {
@@ -211,7 +211,7 @@ h2{
 	margin-bottom: 22px;
 	transition: .3s;
   border-radius: 5px;
-  color: #f63e97;
+  color: #ffa8f3;
   font-family: "Merriweather Sans", sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -243,7 +243,7 @@ textarea{
 } */
 
 .field:focus{
-    border: 2px solid #f63e97;
+    border: 2px solid #ffa8f3;
     background-color: #fff;
 }
 

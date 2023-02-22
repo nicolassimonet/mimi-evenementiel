@@ -16,7 +16,7 @@
   font-family: "Merriweather Sans", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  background-color: #f63e97;
+  background-color: #ffa8f3;
   border: none;
   color: whitesmoke;
   padding: 10px 20px;
@@ -32,7 +32,7 @@
 
 .link__button-text:hover {
   background-color: whitesmoke;
-  color: #f63e97;
+  color: #ffa8f3;
 }
 
 @media screen and (max-width: 280px){

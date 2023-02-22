@@ -19,7 +19,7 @@
 /* ------------------------------------------------------------------ */
 
 body {
-   background: #f9efd3;
+   background: #ffffff;
 }
 
 /* ------------------------------------------------------------------ */
@@ -60,7 +60,7 @@ header .banner-text h1 {
    font-family: "Merriweather Sans", sans-serif;
    font-weight: 600;
    text-transform: uppercase;
-   color: #f63e97;
+   color: #ffa8f3;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    font-size: 90px;
@@ -90,6 +90,27 @@ header .social li {
    padding: 0;
 }
 
+.container__banner {
+   position: relative;
+   top: -65%;
+   width: 100%;
+   height: 400px;
+   /* background: #333; */
+   text-align: center;
+   z-index: 100!important;
+}
+
+video {
+   position: absolute;
+   top: -58%;
+   left: 0;
+   width: 100%;
+   height: fit-content;
+   z-index: -10!important;
+   filter: blur(1.5rem);
+   opacity: 0.4;
+}
+
 /* scrolldown link */
 header .scrolldown a {
    position: absolute;
@@ -98,12 +119,13 @@ header .scrolldown a {
    margin-left: -29px;
    color: #fff;
    display: block;
-   height: 42px;
-   width: 42px;
-   font-size: 42px;
-   line-height: 42px;
-   color: #fff;
+   height: 55px;
+   width: 55px;
+   font-size: 55px;
+   line-height: 55px;
+   color: #333;
    border-radius: 100%;
+   z-index: 120;
 
    -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
@@ -111,7 +133,7 @@ header .scrolldown a {
    transition: all 0.3s ease-in-out;
 }
 header .scrolldown a:hover {
-   color: #f63e97;
+   color: #ffa8f3;
 }
 
 @media screen and (max-width: 280px) {
@@ -141,12 +163,12 @@ header .scrolldown a:hover {
    text-transform: uppercase;
    letter-spacing: 2.5px;
    margin: 0 auto;
-   z-index: 100;
+   z-index: 110;
    position: fixed;
    left: 0;
    top: 0;
    background: whitesmoke;
-   border-bottom: 3px solid #f63e97;
+   border-bottom: 3px solid #ffa8f3;
 }
 .opaque {
    background-color: whitesmoke;
@@ -194,11 +216,11 @@ ul#nav li a:active {
 }
 
 ul#nav li a:hover {
-   color: #f63e97;
+   color: #ffa8f3;
 }
 
 ul#nav li.current a {
-   color: #f63e97;
+   color: #ffa8f3;
 }
 
 .toggle__nav-home {
@@ -232,6 +254,7 @@ ul#nav li.current a {
    height: auto;
    width: 600px;
    max-width: 100%;
+   opacity: 0.9;
 }
 
 .about__container-text {
@@ -363,7 +386,7 @@ ul#nav li.current a {
    font-family: "Merriweather Sans", sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #f63e97;
+   color: #ffa8f3;
    margin-bottom: 6px;
 }
 #contact h1 span {
@@ -377,7 +400,7 @@ ul#nav li.current a {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #f63e97;
+   color: #ffa8f3;
 }
 
 #contact p {
@@ -406,7 +429,7 @@ footer a:visited {
 }
 footer a:hover,
 footer a:focus {
-   color: #f63e97;
+   color: #ffa8f3;
 }
 
 /* copyright */
@@ -427,7 +450,7 @@ footer .copyright li:before {
    content: "\2022";
    padding-left: 10px;
    padding-right: 10px;
-   color: #f63e97;
+   color: #ffa8f3;
 }
 footer .copyright li:first-child:before {
    display: none;
@@ -444,7 +467,7 @@ footer .social-links li {
    margin: 0;
    padding: 0;
    margin-left: 42px;
-   color: #f63e97;
+   color: #ffa8f3;
 }
 
 footer .social-links li:first-child {
@@ -478,7 +501,7 @@ footer .social-links li:first-child {
    border-radius: 100%;
 }
 #go-top a:hover {
-   background-color: #f63e97;
+   background-color: #ffa8f3;
 }
 
 .social .btn:first-child {
