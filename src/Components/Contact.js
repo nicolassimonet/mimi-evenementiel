@@ -39,7 +39,6 @@ const Contact = () => {
           <div class="left">
             <h1></h1>
             <p>07 86 08 40 43</p>
-            <p>13 rue du Moulin, 13140 Miramas</p>
             <p>mimievenementiel@gmail.com</p>
           </div>
           <form ref={form} onSubmit={sendEmail} class="right">

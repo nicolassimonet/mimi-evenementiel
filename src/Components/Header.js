@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import bgVideo from "./../images/header-video.mp4";
+import bgVideo from "./../images/evenementiel.mov";
 // import Fade from "react-reveal";
 
 class Header extends Component {

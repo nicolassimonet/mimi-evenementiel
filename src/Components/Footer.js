@@ -14,7 +14,10 @@ class Footer extends Component {
         </li>
       );
     });
-
+    function Annee() {
+      const year = new Date().getFullYear();
+      return <span>{year}</span>;
+    }
     return (
       <footer>
         <div className="row">
@@ -23,7 +26,7 @@ class Footer extends Component {
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright 2022 Mimi Évenementiel</li>
+                <li>&copy; Copyright <Annee /> Mimi Évenementiel</li>
                 <li>
                   Developed by{" "}
                   <a
@@ -34,7 +37,7 @@ class Footer extends Component {
                   </a>{" "}
                   <bold>&</bold>{" "}
                   <a title="iiRedDev" href="https://github.com/iiRedDev">
-                    Allan Le Talec
+                    iireddev
                   </a>
                 </li>
               </ul>

@@ -107,8 +107,8 @@ video {
    width: 100%;
    height: fit-content;
    z-index: -10!important;
-   filter: blur(1.5rem);
-   opacity: 0.4;
+   filter: blur(3px);
+   opacity: 0.8;
 }
 
 /* scrolldown link */
