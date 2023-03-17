@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 src/images/evenementiel.mov
+package-lock.json
 # testing
 /coverage
 
