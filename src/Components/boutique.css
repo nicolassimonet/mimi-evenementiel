@@ -1,5 +1,5 @@
 .boutique__container {
-  display: inline-block;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,6 @@
 }
 
 .link__button-text {
-  /* display: block; */
   font-family: "Merriweather Sans", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
@@ -28,15 +27,47 @@
   border-radius: 16px;
 }
 
-
-
 .link__button-text:hover {
   background-color: whitesmoke;
   color: #ffa8f3;
 }
 
-@media screen and (max-width: 280px){
+/* Media queries pour différentes tailles d'écran */
+@media screen and (max-width: 1200px) {
+  .boutique__container {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .boutique__container {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .boutique__container {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .boutique__container {
+    margin-top: 80px;
+  }
+
+  .text__boutique {
+    font-size: 1.2rem;
+  }
+
+  .link__button-text {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 280px) {
   #portfolio {
-    margin-left: 45px!important;
+    margin-left: 45px !important;
   }
 }

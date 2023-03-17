@@ -27,7 +27,6 @@ body {
 /* ------------------------------------------------------------------ */
 
 
-
 header {
    position: relative;
    height: 800px;
@@ -141,7 +140,39 @@ header .scrolldown a:hover {
       margin-left: 65px !important;
    }
    header .banner-text h1 {
+      font-size: 60px;
       text-transform: none;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   header {
+      height: 600px;
+      min-height: 300px;
+   }
+   header .banner-text h1 {
+      font-size: 60px;
+   }
+   header .banner-text h3 {
+      font-size: 20px;
+   }
+   header .social {
+      font-size: 24px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   header .banner-text h1 {
+      font-size: 72px;
+   }
+   header .banner-text h3 {
+      font-size: 24px;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+   header .banner-text h3 {
+      width: 85%;
    }
 }
 
@@ -235,11 +266,11 @@ ul#nav li.current a {
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
-@media screen and (max-width: 280px) {
+/* @media screen and (max-width: 280px) {
    #about {
       margin-left: 65px !important;
    }
-}
+} */
 
 .about {
    width: 100%;
@@ -274,21 +305,20 @@ ul#nav li.current a {
    justify-content: space-around;
 }
 
-@media screen and (max-width: 1180px) {
+/* @media screen and (max-width: 1180px) {
    .about {
       width: 100%;
-      /* height: auto; */
       padding: 70px 0px;
    }
-}
+} */
 
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
    .about {
       margin-top: 300px;
    }
-}
+} */
 
-@media screen and (max-width: 650px) {
+/* @media screen and (max-width: 650px) {
    .about .content img {
       margin-bottom: 35px;
    }
@@ -302,7 +332,7 @@ ul#nav li.current a {
    .about__container-text {
       margin-bottom: 350px;
    }
-}
+} */
 
 .title__about {
    color: #ebc764;
@@ -311,6 +341,21 @@ ul#nav li.current a {
    font-weight: 800;
    text-transform: uppercase;
    font-family: "Merriweather Sans", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+   .about {
+      height: auto;
+   }
+
+   .about .content img {
+      width: 100%;
+      margin-bottom: 35px;
+   }
+
+   .about__container-text {
+      width: 100%;
+   }
 }
 
 /* ------------------------------------------------------------------ */

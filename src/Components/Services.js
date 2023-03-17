@@ -17,7 +17,7 @@ import "./services.css";
 class Resume extends Component {
   render() {
     return (
-      <section id="resume">
+      <section id="services">
         <div className="section">
           <Slide left duration={1300}>
             <div className="row">

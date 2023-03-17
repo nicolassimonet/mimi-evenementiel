@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import bgVideo from "./../images/evenementiel.mov";
+// import bgVideo from "./../images/evenementiel.mov;"
+import bgVideo from "./../images/header-video.mp4";
 // import Fade from "react-reveal";
 
 class Header extends Component {
@@ -29,14 +30,20 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#resume">
+              <a className="smoothscroll" href="#services">
                 Services
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#portfolio">
+              <a className="smoothscroll" href="#boutique">
                 Boutique
+              </a>
+            </li>
+
+            <li>
+              <a className="smoothscroll" href="#gallery">
+                Gallery
               </a>
             </li>
 
